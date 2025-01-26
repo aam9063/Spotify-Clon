@@ -22,7 +22,7 @@ const _manifest = Object.assign(manifest, {
     middleware: () => import('./_noop-middleware.mjs')
 });
 const _args = {
-    "middlewareSecret": "112d25a6-1615-4202-b589-1115972a1685",
+    "middlewareSecret": "",
     "skewProtection": false
 };
 const _exports = createExports(_manifest, _args);
